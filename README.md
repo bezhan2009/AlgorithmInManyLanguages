@@ -1,6 +1,4 @@
-Вот пример `README.md` с бейджами и кратким описанием вашего проекта на английском:
 
-```markdown
 # AlgorithmInManyLanguages
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/bezhan2009/AlgorithmInManyLanguages)
@@ -41,4 +39,3 @@ Thanks to all the contributors who have helped make this project possible.
 
 ![GitHub language count](https://img.shields.io/github/languages/count/yourusername/AlgorithmInManyLanguages)
 ![GitHub top language](https://img.shields.io/github/languages/top/yourusername/AlgorithmInManyLanguages)
-```
