@@ -37,5 +37,5 @@ For any inquiries or feedback, please open an issue or contact us at [your-email
 
 Thanks to all the contributors who have helped make this project possible.
 
-![GitHub language count](https://img.shields.io/github/languages/count/yourusername/AlgorithmInManyLanguages)
-![GitHub top language](https://img.shields.io/github/languages/top/yourusername/AlgorithmInManyLanguages)
+![GitHub language count](https://img.shields.io/github/languages/count/bezhan2009/AlgorithmInManyLanguages)
+![GitHub top language](https://img.shields.io/github/languages/top/bezhan2009/AlgorithmInManyLanguages)
