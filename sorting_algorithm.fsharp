@@ -1,0 +1,16 @@
+let bubbleSort (arr: int array) =
+    let mutable swapped = true
+    let n = arr.Length
+    while swapped do
+        swapped <- false
+        for i in 0 .. n - 2 do
+            if arr.[i] > arr.[i + 1] then
+                let temp = arr.[i]
+                arr.[i] <- arr.[i + 1]
+                arr.[i + 1] <- temp
+                swapped <- true
+    arr
+
+let arr = [|64; 34; 25; 12; 22; 11; 90|]
+let sorted = bubbleSort arr
+printfn "Sorted array: %A" sorted
