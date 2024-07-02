@@ -1,0 +1,18 @@
+function bubbleSort {
+    n = size arr
+    repeat n-1 {
+        repeat n-1-i {
+            if arr[i] > arr[i+1] {
+                temp = arr[i]
+                arr[i] = arr[i+1]
+                arr[i+1] = temp
+            }
+        }
+    }
+}
+
+program {
+    arr = [5, 3, 8, 4, 2]
+    bubbleSort(arr)
+    print(arr)
+}
