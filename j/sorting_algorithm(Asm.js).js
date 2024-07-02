@@ -1,0 +1,20 @@
+// Пример сортировки пузырьком на Asm.js
+
+function bubbleSort(arr) {
+    var n = arr.length;
+    for (var i = 0; i < n - 1; i++) {
+        for (var j = 0; j < n - 1 - i; j++) {
+            if (arr[j] > arr[j + 1]) {
+                var temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+    return arr;
+}
+
+// Пример использования
+var arr = [5, 3, 8, 4, 2];
+var sortedArr = bubbleSort(arr);
+console.log(sortedArr); // Вывод отсортированного массива в консоль
