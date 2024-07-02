@@ -1,0 +1,23 @@
+HAI 1.2
+I HAS A arr ITZ A NOOB
+arr R 64 34 25 12 22 11 90
+
+HOW IZ I BUBBLE_SORT YR arr
+  I HAS A swapped ITZ A NOOB
+  IM IN YR loop
+    swapped R 0
+    IM IN YR for EACH 0 THRU 5
+      BOTH SAEM arr AT IT AN BIGGR OF arr AT SUM OF IT AN 1
+      O RLY?
+        YA RLY
+          arr AT IT AN IT, arr AT SUM OF IT AN 1, arr AT IT
+          swapped R 1
+      OIC
+    IM OUTTA YR for
+    BOTH SAEM swapped AN 0
+    O RLY?
+      YA RLY
+        GTFO
+    OIC
+  IM OUTTA YR loop
+FOUND YR arr
