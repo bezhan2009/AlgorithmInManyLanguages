@@ -1,0 +1,17 @@
+sort := proc(arr) {
+    n := size(arr);
+    for i := 0 to n - 2 do {
+        for j := 0 to n - 2 - i do {
+            if arr[j] > arr[j + 1] then {
+                temp := arr[j];
+                arr[j] := arr[j + 1];
+                arr[j + 1] := temp;
+            }
+        }
+    }
+    arr
+};
+
+-- Пример использования
+arr := [5, 3, 8, 4, 2];
+sort(arr);
