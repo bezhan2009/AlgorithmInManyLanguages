@@ -2,7 +2,6 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub contributors](https://img.shields.io/github/contributors/bezhan2009/polyglot-sorting-algorithms)](https://github.com/bezhan2009/polyglot-sorting-algorithms/graphs/contributors)
-
 [![Most Used Language](https://img.shields.io/github/languages/top/bezhan2009/polyglot-sorting-algorithms)](https://github.com/bezhan2009/polyglot-sorting-algorithms)
 [![Total Languages](https://img.shields.io/github/languages/count/bezhan2009/polyglot-sorting-algorithms)](https://github.com/bezhan2009/polyglot-sorting-algorithms)
 
