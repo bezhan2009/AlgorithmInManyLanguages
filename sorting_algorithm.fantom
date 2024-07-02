@@ -1,0 +1,23 @@
+class SortingAlgorithm {
+    static Void main() {
+        arr := [64, 34, 25, 12, 22, 11, 90]
+        bubbleSort(arr)
+        echo("Sorted array: $arr")
+    }
+
+    static Void bubbleSort(Int[] arr) {
+        n := arr.size
+        swapped := false
+        do {
+            swapped = false
+            for (i := 0; i < n - 1; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    temp := arr[i]
+                    arr[i] = arr[i + 1]
+                    arr[i + 1] = temp
+                    swapped = true
+                }
+            }
+        } while (swapped)
+    }
+}
