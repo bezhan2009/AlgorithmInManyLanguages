@@ -1,0 +1,16 @@
+procedure bubbleSort(arr: Array of Integer) {
+    var n := Length(arr);
+    for var i := 0 to n - 2 do {
+        for var j := 0 to n - 2 - i do {
+            if arr[j] > arr[j + 1] {
+                var temp := arr[j];
+                arr[j] := arr[j + 1];
+                arr[j + 1] := temp;
+            }
+        }
+    }
+}
+
+// Пример использования
+var arr := [5, 3, 8, 4, 2];
+bubbleSort(arr);
