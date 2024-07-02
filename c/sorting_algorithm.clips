@@ -1,0 +1,17 @@
+(deffunction bubble-sort (?arr)
+    (bind ?n (length$ ?arr))
+    (do-for* ((?i 1 (+ ?i 1))) ((>= ?i ?n)) 
+        (do-for* ((?j 1 (+ ?j 1))) ((>= ?j (- ?n ?i))) 
+            (if (> (nth$ ?j ?arr) (nth$ (+ ?j 1) ?arr)) then
+                (bind ?temp (nth$ ?j ?arr))
+                (replace$ ?j ?arr (nth$ (+ ?j 1) ?arr))
+                (replace$ (+ ?j 1) ?arr ?temp)
+            )
+        )
+    )
+    ?arr
+)
+
+;; Example usage
+(defglobal ?*arr* = (create$ 5 3 8 4 2))
+(bubble-sort ?*arr*)
