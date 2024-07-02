@@ -1,0 +1,29 @@
+// Bubble sort algorithm in 1C
+Procedure BubbleSort(Array)
+    Var i, j, n, temp;
+    n = Array.Count();
+    For i = 0 To n - 2 Do
+        For j = 0 To n - 2 - i Do
+            If Array[j] > Array[j + 1] Then
+                temp = Array[j];
+                Array[j] = Array[j + 1];
+                Array[j + 1] = temp;
+            EndIf;
+        EndFor;
+    EndFor;
+EndProcedure;
+
+// Example usage
+Array = New Array;
+Array.Add(5);
+Array.Add(3);
+Array.Add(8);
+Array.Add(4);
+Array.Add(2);
+
+BubbleSort(Array);
+
+// Print sorted array
+ForEach Element In Array Do
+    Message(Element);
+EndForEach;
