@@ -21,10 +21,18 @@ The repository is structured as follows:
 - ...
 - `Z/`: Algorithms implemented in languages starting with 'Z'
 
+
+### Inside Each Language Directory:
+
 Each language directory includes:
+
 - `README.md`: Explanation of the sorting algorithm implemented in that language.
-- Source code file (`sort.xyz`): Implementation of the sorting algorithm.
-- Example input and output files (`input.xyz`, `output.xyz`).
+- `sort.xxx`: Implementation of the sorting algorithm in the respective language.
+- `input.xxx` and `output.xxx`: Example input and output files for testing purposes.
+
+Replace `xxx` with the appropriate file extension for each language (e.g., `.py` for Python, `.java` for Java).
+
+
 ## Contributing
 
 Contributions are welcome! If you know a programming language that isn't covered yet or have suggestions for improvements, feel free to fork this repository, add your implementation, and submit a pull request.
