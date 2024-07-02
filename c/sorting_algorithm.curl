@@ -1,0 +1,17 @@
+{define-proc {bubble-sort arr:any}
+  {for i 0 {sub {size arr} 1} do
+    {for j 0 {sub {sub {size arr} 1} i} do
+      {if {gt? {get arr j} {get arr {add j 1}}}
+        {let temp {get arr j}}
+        {set arr j {get arr {add j 1}}}
+        {set arr {add j 1} temp}
+      }
+    }
+  }
+  arr
+}
+
+;; Example usage
+{let arr {array 5 3 8 4 2}}
+{bubble-sort arr}
+{output arr}
