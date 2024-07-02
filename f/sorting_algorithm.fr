@@ -1,0 +1,13 @@
+module Main where
+
+-- Пример сортировки пузырьком на Frege
+bubbleSort :: [Int] -> [Int]
+bubbleSort arr =
+    let n = length arr
+    in  iterate (\(x, y) -> if x > y then (y, x) else (x, y)) arr !! (n - 1)
+
+-- Пример использования
+main = do
+    let arr = [5, 3, 8, 4, 2]
+    let sortedArr = bubbleSort arr
+    print sortedArr
