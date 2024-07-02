@@ -1,0 +1,18 @@
+;; Пример сортировки пузырьком на FuzzyCLIPS
+(deffunction bubble-sort (?arr)
+    (bind ?n (length$ ?arr))
+    (loop for (?i range 0 (- ?n 2)) do
+        (loop for (?j range 0 (- ?n 2 ?i)) do
+            (if (> (nth$ ?j ?arr) (nth$ (+ ?j 1) ?arr))
+                then
+                    (bind ?temp (nth$ ?j ?arr))
+                    (bind (nth$ ?j ?arr) (nth$ (+ ?j 1) ?arr))
+                    (bind (nth$ (+ ?j 1) ?arr) ?temp)
+            )
+        )
+    )
+    ?arr
+)
+
+;; Пример использования
+(printout t (implode$ (bubble-sort (create$ 5 3 8 4 2))) crlf)
