@@ -18,18 +18,6 @@ The repository is structured as follows:
 - ...
 - `Z/`: Algorithms implemented in languages starting with 'Z'
 
-### Inside Each Language Directory:
-
-Each language directory includes multiple implementations of sorting algorithms:
-
-- `sorting_algorithm.[extension1]`: Sorting algorithm implementation.
-- `sorting_algorithm.[extension2]`: Sorting algorithm implementation.
-- `sorting_algorithm.[extension3]`: Sorting algorithm implementation.
-- ...
-
-Replace `[extension1]`, `[extension2]`, etc. with the actual file extensions used for sorting algorithm implementations in each language directory.
-
-
 ## Purpose
 
 The goal of this project is to explore and compare sorting algorithm implementations across a diverse set of programming languages, from mainstream languages to more exotic ones.
