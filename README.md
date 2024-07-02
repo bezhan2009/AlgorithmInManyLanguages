@@ -8,9 +8,6 @@
 
 This repository showcases sorting algorithms implemented in 100 different programming languages. Each language directory contains a basic sorting algorithm implementation to illustrate language-specific features and syntax.
 
-## Purpose
-
-The goal of this project is to explore and compare sorting algorithm implementations across a diverse set of programming languages, from mainstream languages to more exotic ones.
 
 ## Directory Structure
 
@@ -21,17 +18,21 @@ The repository is structured as follows:
 - ...
 - `Z/`: Algorithms implemented in languages starting with 'Z'
 
-
 ### Inside Each Language Directory:
 
-Each language directory includes:
+Each language directory includes multiple implementations of sorting algorithms:
 
-- `README.md`: Explanation of the sorting algorithm implemented in that language.
-- `sort.xxx`: Implementation of the sorting algorithm in the respective language.
-- `input.xxx` and `output.xxx`: Example input and output files for testing purposes.
+- `sorting_algorithm.[extension1]`: Sorting algorithm implementation.
+- `sorting_algorithm.[extension2]`: Sorting algorithm implementation.
+- `sorting_algorithm.[extension3]`: Sorting algorithm implementation.
+- ...
 
-Replace `xxx` with the appropriate file extension for each language (e.g., `.py` for Python, `.java` for Java).
+Replace `[extension1]`, `[extension2]`, etc. with the actual file extensions used for sorting algorithm implementations in each language directory.
 
+
+## Purpose
+
+The goal of this project is to explore and compare sorting algorithm implementations across a diverse set of programming languages, from mainstream languages to more exotic ones.
 
 ## Contributing
 
