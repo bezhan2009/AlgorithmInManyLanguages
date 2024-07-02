@@ -14,24 +14,6 @@ A comprehensive collection of a single algorithm implemented in 100 different pr
 
 The selected algorithm is implemented in 100 different programming languages. The main goal is to demonstrate the diversity and unique features of each language through a common task.
 
-## Contributing
-
-We welcome contributions! If you would like to add an implementation in a new language, please follow these steps:
-
-1. Fork this repository.
-2. Create a directory for the new language (if it doesn't already exist).
-3. Add the implementation of the algorithm in the new directory.
-4. Submit a pull request with a clear description of the changes.
-
-Please ensure that your code follows the standard conventions and includes comments where necessary.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any inquiries or feedback, please open an issue or contact us at [your-email@example.com](mailto:your-email@example.com).
 
 ## Acknowledgments
 
