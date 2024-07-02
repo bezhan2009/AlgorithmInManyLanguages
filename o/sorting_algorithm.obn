@@ -1,0 +1,39 @@
+MODULE BubbleSort;
+
+IMPORT In, Out;
+
+PROCEDURE Sort(VAR a: ARRAY OF INTEGER; n: INTEGER);
+VAR i, j, temp: INTEGER;
+BEGIN
+  FOR i := 0 TO n - 2 DO
+    FOR j := 0 TO n - 2 - i DO
+      IF a[j] > a[j+1] THEN
+        temp := a[j];
+        a[j] := a[j+1];
+        a[j+1] := temp
+      END
+    END
+  END
+END Sort;
+
+VAR 
+  a: ARRAY 10 OF INTEGER;
+  i: INTEGER;
+
+BEGIN
+  (* Input array elements *)
+  FOR i := 0 TO LEN(a) - 1 DO
+    Out.String("Enter element "); Out.Int(i, 0); Out.String(": ");
+    In.Int(a[i])
+  END;
+
+  (* Sort the array *)
+  Sort(a, LEN(a));
+
+  (* Output sorted array *)
+  Out.String("Sorted array: ");
+  FOR i := 0 TO LEN(a) - 1 DO
+    Out.Int(a[i], 3)
+  END;
+  Out.Ln
+END BubbleSort.
