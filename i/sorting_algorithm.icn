@@ -1,0 +1,15 @@
+procedure bubbleSort(arr)
+    n := size(arr)
+    repeat (n - 1) {
+        repeat (n - 1 - i) {
+            if arr[i] > arr[i + 1] then {
+                swap(arr, i, i + 1)
+            }
+        }
+    }
+end
+
+# Пример использования
+arr := [5, 3, 8, 4, 2]
+bubbleSort(arr)
+write(arr)
