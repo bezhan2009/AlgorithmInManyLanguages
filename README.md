@@ -14,11 +14,17 @@ The goal of this project is to explore and compare sorting algorithm implementat
 
 ## Directory Structure
 
+The repository is structured as follows:
+
+- `A/`: Algorithms implemented in languages starting with 'A'
+- `B/`: Algorithms implemented in languages starting with 'B'
+- ...
+- `Z/`: Algorithms implemented in languages starting with 'Z'
+
 Each language directory includes:
 - `README.md`: Explanation of the sorting algorithm implemented in that language.
 - Source code file (`sort.xyz`): Implementation of the sorting algorithm.
 - Example input and output files (`input.xyz`, `output.xyz`).
-
 ## Contributing
 
 Contributions are welcome! If you know a programming language that isn't covered yet or have suggestions for improvements, feel free to fork this repository, add your implementation, and submit a pull request.
